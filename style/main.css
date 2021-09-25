@@ -1,0 +1,143 @@
+:root{
+    --vermelho: #E50914;
+    --preta: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black', times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+header img{
+    image-rendering: auto;
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Séries/la-casa-de-papel-poster.jpg');
+    height: 500px;
+    min-width: 1340px;
+    margin: 10px;
+    background-size: cover;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: flex-start;
+    
+
+}
+
+.filme-principal .descricao{
+    /* margin-left: 15px; */
+    margin-bottom: 15px;
+}
+
+.titulo{
+    /* margin-left: 15px; */
+    margin-top: 5%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.829);
+    color: black;
+}
+
+.botao i{
+    margin-right: 3px;
+   
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.filme-principal .container{
+    width: 34%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 8px;
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-series{
+    margin-top: 8px;
+}
+
+.box-documentario{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-documentario{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.sub-titulo{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
